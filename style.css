@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(111, 155, 155);
+}
+.center-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.face{
+    height: 600px;
+    width: 670px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: black 0px 50px 100px -20px;
+}
+
+.eyes{
+    width: inherit;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eye{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(173, 169, 169) 0px 50px 100px -20px;
+    overflow: hidden;
+}
+
+.pupil{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: rgb(153, 149, 149) 0px 10px 50px;
+}
+
+.shine{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mouth{
+    width: 130px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: rgb(167, 161, 161) 0px 10px 50px;
+    
+}
+
+
+/* range = 250px - 50px
+socket - pupil */
